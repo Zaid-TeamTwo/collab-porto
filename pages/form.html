@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hire Us</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: Arial, sans-serif; line-height: 1.6; color: black;">
+
+  <!-- HEADER -->
+  <header style="background: #111; color: white; text-align: center; padding: 40px 20px;">
+    <h1>Team Room 5</h1>
+    <nav aria-label="Main Navigation" style="margin-top: 15px;">
+      <a href="../index.html" style="text-decoration: none; color: cornflowerblue;"><strong>Home</strong></a>
+      <span style="margin: 0 12px;">|</span>
+      <a aria-current="page" style="text-decoration: none; color: white;">Hire Us!</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main style="margin: 0 auto; max-width: 900px; padding: 40px 20px;">
+
+    <h2 style="text-align: center; color: cornflowerblue;">Project Request Form</h2>
+    <p style="text-align: center;">
+        <a href="../assets/documents/sample.pdf" download="portfolio.pdf" style="text-decoration: none; color: cornflowerblue;"><strong>Download Our Portfolio</strong></a>
+    </p>
+
+    <form action="#" method="GET" style="max-width: 900px; margin: 40px auto; padding: 20px;">
+      
+      <section id="personal-info">
+        <fieldset style="padding: 20px; margin-bottom: 30px;">
+          <legend style="color: cornflowerblue;"><strong>Personal Details</strong></legend>
+
+          <label for="fullname" style="margin-top: 10px;">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required style="width: 800px; padding: 8px;"><br><br>
+
+          <label for="email" style="margin-top: 10px;">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="example@email.com" required style="width: 800px; padding: 8px;"><br><br>
+
+          <label for="phone" style="margin-top: 10px;">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="+62 812-xxxx-xxxx" required style="width: 800px; padding: 8px;">
+        </fieldset>
+      </section>
+
+      <section id="project-info">
+        <fieldset style="padding: 20px; margin-bottom: 30px;">
+          <legend style="color: cornflowerblue;"><strong>Project Information</strong></legend>
+
+          <label for="website-type" style="margin-top: 10px;">What type of website do you want to build?</label>
+          <select id="website-type" name="website-type" required style="width: 800px; padding: 8px;">
+            <option value="">-- Choose one --</option>
+            <option value="portfolio">Portfolio Website</option>
+            <option value="business">Business Website</option>
+            <option value="ecommerce">E-Commerce Site</option>
+            <option value="blog">Blog</option>
+            <option value="custom">Custom Web App</option>
+          </select><br><br>
+
+          <p style="margin-top: 15px; margin-bottom: 5px;">Do you already have design materials?</p>
+          <input type="radio" id="yes" name="design" value="yes" checked>
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="design" value="no">
+          <label for="no">No</label><br><br>
+
+          <label for="goals" style="margin-top: 15px;">Project Goals / Description:</label>
+          <textarea id="goals" name="goals" rows="4" placeholder="Describe what you want to achieve..." required style="width: 800px; padding: 8px;"></textarea><br><br>
+
+          <label for="reference" style="margin-top: 10px;">Upload a Reference Image:</label>
+          <input type="file" id="reference" name="reference">
+        </fieldset>
+      </section>
+
+      <section id="timeline-info">
+        <fieldset style="padding: 20px; margin-bottom: 30px;">
+          <legend style="color: cornflowerblue;"><strong>Timeline and Expectations</strong></legend>
+
+          <label for="start-date" style="margin-top: 10px;">Expected Start Date:</label><br>
+          <input type="date" id="start-date" name="start-date" required style="padding: 8px; width: 800px;"><br><br>
+
+          <label for="duration" style="margin-top: 10px;">Estimated Duration (weeks):</label><br>
+          <input type="number" id="duration" name="duration" min="1" max="52" placeholder="e.g. 4" required style="padding: 8px; width: 800px;"><br><br>
+
+          <label>Preferred Work Mode:</label><br>
+          <input type="checkbox" id="remote" name="mode" value="remote">
+          <label for="remote">Remote</label>
+          <input type="checkbox" id="onsite" name="mode" value="onsite">
+          <label for="onsite">Onsite</label>
+          <input type="checkbox" id="hybrid" name="mode" value="hybrid">
+          <label for="hybrid">Hybrid</label>
+        </fieldset>
+      </section>
+
+      <div style="text-align: center;">
+        <button type="submit" style="background: cornflowerblue; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+          Submit Request
+        </button>
+        <input type="reset" value="Reset Form" style="margin-left: 10px; background: #ddd; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">
+      </div>
+    </form>
+  </main>
+
+  <!-- FOOTER -->
+  <footer style="background: black; color: white; text-align: center; padding: 20px;">
+    <h4 style="margin-top: 5px;">© 2025 Team Room 5</h4>
+  </footer>
+
+</body>
+</html>
