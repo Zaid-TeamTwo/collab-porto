@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tim 5</title>
+</head>
+
+<body style="margin: 0; padding: 0; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; line-height: 2; color: chocolate ;">
+    <!-- HEADER -->
+    <header style="background-color: lightgray; padding: 10px 20px 15px; text-align: center;">
+        <h1 style="text-align: center; padding-bottom: 20px;">TEAM ROOM 5</h1>
+        <nav>
+            <a href="home.html" style="color: black;"><strong>Home</strong></a>
+            <span> | </span>
+            <a href="Join.html" style="color: black;"><strong>Join With Us!</strong></a>
+            <span> | </span>
+            <a href="sample.pdf" download="portfolio.pdf" style="color: black;"><strong>Download Our Portofolio</strong></a>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main style="margin: auto; padding: 15px 20px; max-width: fit-content;">
+        <fieldset style="border-radius: 20px; border: 1px solid chocolate; padding: 20px;">
+        <h2 style="text-align: center; color: chocolate;">Registration Form</h2>
+        <form action="#" method="get">
+            <fieldset style="border: 2px solid chocolate; padding: 20px; margin-top: 30px;">
+                <legend style="color: chocolate;">Personal Information</legend>
+                
+                <label for="firstname">First Name</label><br>
+                <input type="text" id="firstname" name="firstname" placeholder="Your First Name" style="width: 1000px; padding: 10px;border: 1px solid chocolate"><br><br>
+                 <label for="lastname">Last Name</label><br>
+                <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" style="width: 1000px; padding: 10px;border: 1px solid chocolate"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Your Email Activation" style="width: 1000px; padding: 10px;border: 1px solid chocolate"><br><br>
+                <label for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" style="width: 1000px; padding: 10px;border: 1px solid chocolate"><br><br>
+            </fieldset>
+
+            <fieldset style="border: 2px solid chocolate; padding: 20px; margin-top: 30px;">
+                <legend style="color: chocolate;">Project Information</legend>
+
+                <label for="Interest">What are your interests?</label><br>
+                <select id="interest" name="interest" style="width: 1020px; padding: 10px; border: 1px solid chocolate">
+                    <option value="" style="text-align: center;">-----Choose One Option-----</option>
+                    <option value="graphic-design">Graphic Design</option>
+                    <option value="digital-marketing"> Digital Marketing</option>
+                    <option value="web-development">Web Development</option>
+                    <option value="data-analyst">Data Analyst</option>
+                </select><br><br>
+
+                <label for="experience">How long has your experience been?</label><br>
+                <input type="radio" id="less than 1 year" name="experience" value="less than 1 year" checked>Less than 1 year<br>
+                <input type="radio" id="more than 1 year" name="experience" value="more than 1 year" checked>More than 1 year<br>
+                <input type="radio" id="more than 2 years" name="experience" value="more than 2 years" checked>More than 2 years<br>
+                <input type="radio" id="more than 5 years" name="experience" value="more than 2 years" checked>More than 5 years<br><br>
+
+                <label for="your-project">Explain all your projects so far (briefly):</label><br>
+                <textarea id="your-project" name="project-info" rows="6" cols="100" placeholder="Describe what you want to achieve" style="border: 1px solid chocolate;"></textarea><br><br>
+
+                <label for="date">Expected Start Date:</label><br>
+                <input type="date" id="date" name="date" style="width: 300px; padding: 10px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border: 1px solid chocolate"><br>
+            </fieldset>
+
+            <fieldset style="border: 2px solid chocolate; padding: 20px; margin-top: 30px;">
+                <legend style="color: chocolate;">Upload The Required File</legend>
+                <label for="resume">Upload your CV/Resume:</label><br>
+                <input type="file" id="resume" name="resume" accept="pdf. jpg."><br><br>
+                <label for="photo">Upload Your Photo:</label><br>
+                <input type="file" id="photo" name="photo" accept="image/*"><br><br>
+            </fieldset>
+        </fieldset><br>
+            <div style="text-align: center">
+                <button type="submit" id="submit" name="submit" style="background-color:lightgray; border-radius: 8px; color: chocolate; border-color: lightsalmon; padding: 6px 10px; cursor: pointer;"><strong>Submit Request</strong></button>
+                <span>|</span>
+                 <button type="reset" id="reset" name="reset" style="border-radius: 8px; padding: 6px 10px; cursor: pointer">Reset <form action=""></form></button>
+            </div>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer style="background-color: lightgray;">
+        <p style="text-align: center; padding: 20px; margin-bottom: 10px;"><i>by Team Room 5. RevoU-Madrid.</i></p>
+        <p style="text-align: center;">Any Question?</p>
+        <nav style="text-align: center;">
+            <a href="contact.html" style="color: chocolate;"><strong>Contact Us</strong></a>
+    </footer>
+</body>
+</html>
